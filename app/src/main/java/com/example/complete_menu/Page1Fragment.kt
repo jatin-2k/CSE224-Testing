@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import com.example.complete_menu.databinding.FragmentPage1Binding
 
 class Page1Fragment : Fragment() {
@@ -20,8 +21,9 @@ class Page1Fragment : Fragment() {
         _binding = FragmentPage1Binding.inflate(inflater,container,false)
 
         binding.buttonToPage2.setOnClickListener {
-
+            it.findNavController().navigate(R.id.action_page1Fragment_to_page2Fragment)
         }
+        
         return binding.root
     }
 

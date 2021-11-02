@@ -17,16 +17,6 @@
         android:textColor="#6C00F8"
         android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Get started with your work school or personal Microsoft account"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        android:layout_margin="10dp"/>
-
     <ImageView
         android:id="@+id/dice_image"
         android:layout_width="wrap_content"
@@ -34,6 +24,17 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/img"
         android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Get started with your work school or personal Microsoft account"
+        android:textAlignment="center"
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"

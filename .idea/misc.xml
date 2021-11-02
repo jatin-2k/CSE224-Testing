@@ -6,6 +6,8 @@
         <entry key="app/src/main/res/drawable/button_background.xml" value="0.290625" />
         <entry key="app/src/main/res/drawable/stroke_background.xml" value="0.290625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22661151134043503" />
+        <entry key="app/src/main/res/layout/activity_q21.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_q22.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/fragment_about.xml" value="0.12664640324214793" />
         <entry key="app/src/main/res/layout/fragment_page1.xml" value="0.1334853090172239" />
         <entry key="app/src/main/res/layout/fragment_page2.xml" value="0.1334853090172239" />
